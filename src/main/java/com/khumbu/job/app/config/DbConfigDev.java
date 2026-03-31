@@ -9,14 +9,13 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
 import org.springframework.context.annotation.Profile;
 
-@Configuration
-@PropertySource("classpath:/dev.properties")
-@Profile("dev")
+//@Configuration
+//@PropertySource("classpath:/dev.properties")
+//@Profile("dev")
 public class DbConfigDev {
 
 	
 	@Bean
-
 	public DataSource dataSource(@Value("${spring.datasource.driver-class-name}" ) String driver,
 			@Value("${spring.datasource.url}") String url,
 			@Value("${spring.datasource.username}") String user,

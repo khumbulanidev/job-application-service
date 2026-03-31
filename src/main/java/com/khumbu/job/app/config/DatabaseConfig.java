@@ -10,8 +10,8 @@ import org.springframework.context.annotation.Profile;
 import org.springframework.context.annotation.PropertySource;
 
 
-@Configuration
-@Profile("prod")
+//@Configuration
+//@Profile("prod")
 //@PropertySource("classpath:/example.properties")
 public class DatabaseConfig {
 	
